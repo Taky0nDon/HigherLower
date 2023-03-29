@@ -80,6 +80,5 @@ while is_playing == True:
     score += 1
     A = B
     B = get_entry(data)
-    data.remove(B)
     clear()
     print(f"You're right! Current score: {score}")
