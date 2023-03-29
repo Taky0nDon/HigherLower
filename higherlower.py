@@ -83,3 +83,4 @@ while is_playing == True:
     data.remove(B)
     clear()
     print(f"You're right! Current score: {score}")
+    
