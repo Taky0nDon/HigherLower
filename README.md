@@ -2,7 +2,7 @@
 Higher/Lower Game, 100 Days of Code Day 14. Simulates a database of instagram accounts and uses them for a game where the user attempts to guess which of the two accounts
 has the most followers.
 
-data.py contains the data as a list of dictionaries, each dictionary having 4 keys:
+game_data.py contains a variable called data which stores the data as a list of dictionaries, each dictionary having 4 keys:
 'name': the name of the person or organization the instagram is for
 'follower_count': How many followers the account has
 'description': What the person/organization is known for
